@@ -78,7 +78,8 @@ export function App() {
              key={note.id} 
              note={{
               date: note.date,
-              context: note.content
+              context: note.content,
+              id: note.id
              }} 
             />
           ))
